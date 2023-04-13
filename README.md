@@ -12,3 +12,25 @@
 - Instalación Tesseract 5.2 [aqui](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe)
 - Intalación Heidi para consultas a la base de datos [aqui](https://www.heidisql.com/installers/HeidiSQL_12.0.0.6468_Setup.exe).
 - Instalacion de las librerias detallasdas en requirements.txt para el entorno virtual.
+
+## Primeros pasos
+```cmd
+#clonar repositorio
+git clone <url>
+
+```
+
+```python
+
+#inicializar entorno en el directorio
+py -m venv .venv
+
+#activate entorno en la terminal de cmd
+./.venv/Scripts/Activate.bat
+
+#instalar librerias
+pip install -r requirements.txt
+
+#despues de instalar librerias nuevas
+pip freeze > requirements.txt
+```
