@@ -153,4 +153,32 @@ The SQLite database (`database/database.db`) contains an `alquileres` table with
 4. **Module imports**: Use `from src.utils...` pattern when importing from project modules
 5. **Virtual environment**: Always work within `.venv` - it's in `.gitignore`
 
+## CHANGELOG and Improvement Proposals (REQUIRED)
+
+**IMPORTANT: All agents must follow these steps before completing their work:**
+
+1. **Read CHANGELOG.md first**: Before making changes, review `CHANGELOG.md` to understand the current state of the project and previously identified improvements.
+
+2. **Propose improvements**: After completing your task, you MUST update `CHANGELOG.md`:
+   - Mark any completed improvements with ✅
+   - Add new improvement proposals you identified during your work
+   - Document your changes in the "Historial de Cambios" section
+
+3. **Improvement format**: When adding new proposals, follow this format:
+   ```markdown
+   #### [Category Name]
+   - [ ] Description of the improvement
+   ```
+
+4. **Categories for improvements**:
+   - Testing Framework
+   - CI/CD Pipeline
+   - Code Quality
+   - Documentation
+   - Security
+   - Performance
+   - New Features
+
+This ensures continuous improvement of the codebase and helps future agents understand what work has been done and what remains.
+
 Trust these instructions. Only search the codebase if information here is incomplete or found to be incorrect.
